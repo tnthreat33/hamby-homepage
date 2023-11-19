@@ -14,8 +14,8 @@ body {
 
 #Email-Logo img {
     border-radius: 50%; /* Make the image a circle */
-    width: 20px; /* Adjust the size as needed */
-    height: 20px;
+    width: 500px; /* Adjust the size as needed */
+    height: 500px;
 }
 
 h1 {
@@ -36,6 +36,12 @@ h3 {
     text-align: center;
     width: 60%;
     margin: auto;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%; /* Make the image a circle */
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Adjust the size as needed */
 }
 
 p {
@@ -49,10 +55,6 @@ p {
 }
 
 img {
-    display: block;
-    margin: auto;
-    margin-top: 20px;
     border-radius: 50%; /* Make the image a circle */
-    width: 200px; /* Adjust the size as needed */
-    height: 200px; /* Adjust the size as needed */
+    
 }
