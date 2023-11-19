@@ -8,14 +8,19 @@ body {
     right: 15px;
     top: 50%;
     transform: translateY(-50%);
-    border-left: 2px solid white; /* Add a white left border */
+    border-left: 2px solid white;
     padding-left: 20px;
 }
 
+#Email-Logo {
+    text-align: center;
+    margin-top: 10px; /* Adjust as needed */
+}
+
 #Email-Logo img {
-    border-radius: 50%; /* Make the image a circle */
-    width: 500px; /* Adjust the size as needed */
-    height: 500px;
+    border-radius: 50%;
+    width: 50px; /* Adjust the size as needed */
+    height: 50px;
 }
 
 h1 {
@@ -25,23 +30,10 @@ h1 {
     font-family: 'Fira Code', monospace;
 }
 
-h3 {
-    text-align: center;
-    font-size: 10px;
-    font-family: 'Fira Code', monospace;
-    margin-top: 10px; /* Add margin to separate from h1 */
-}
-
 .content {
     text-align: center;
     width: 60%;
     margin: auto;
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 50%; /* Make the image a circle */
-    width: 200px; /* Adjust the size as needed */
-    height: 200px; /* Adjust the size as needed */
 }
 
 p {
@@ -55,6 +47,10 @@ p {
 }
 
 img {
-    border-radius: 50%; /* Make the image a circle */
-    
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
