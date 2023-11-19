@@ -1,5 +1,5 @@
 body {
-    background: orange;
+    background: #1f3440;
 }
 h1 {
     text-align: center;
@@ -14,7 +14,7 @@ h2 {
  p{
     text-align: center;
     font-size: 40px;
-    color: white;
+    color: #edbf43;
  }
  img {
     margin: auto;
