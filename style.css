@@ -22,7 +22,7 @@ body {
 
 #Email-Logo img {
     border-radius: 50%;
-    width: 50px; /* Adjust the size as needed */
+    width: 50px; 
     height: 50px;
     margin-right: 10px;
 }
@@ -40,14 +40,17 @@ h1 {
     margin: auto;
 }
 
+#Bio{
+    margin-top: 100px;
+}
+
 p {
     font-size: 30px;
     color: white;
     font-family: 'Fira Code', monospace;
-    position: fixed;
-    left: 25px;
-    top: 125px;
+    margin-left: 20px;
     width: 60%;
+   
 }
 
 img {
