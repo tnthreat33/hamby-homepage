@@ -13,14 +13,18 @@ body {
 }
 
 #Email-Logo {
-    text-align: center;
-    margin-top: 10px; /* Adjust as needed */
+    
+    position: fixed;
+    right: 15px;
+    top: 45%;
+    padding-left: 10px;
 }
 
 #Email-Logo img {
     border-radius: 50%;
     width: 50px; /* Adjust the size as needed */
     height: 50px;
+    margin-right: 10px;
 }
 
 h1 {
