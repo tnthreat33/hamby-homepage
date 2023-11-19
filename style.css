@@ -12,6 +12,12 @@ body {
     padding-left: 20px;
 }
 
+#Email-Logo img {
+    border-radius: 50%; /* Make the image a circle */
+    width: 20px; /* Adjust the size as needed */
+    height: 20px;
+}
+
 h1 {
     text-align: center;
     font-size: 60px;
@@ -40,8 +46,6 @@ p {
     left: 25px;
     top: 125px;
     width: 60%;
-    
-    
 }
 
 img {
