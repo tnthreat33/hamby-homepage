@@ -27,6 +27,29 @@ body {
     margin-right: 10px;
 }
 
+h3{
+    color: #56d7b4;
+    font-family: 'Fira Code', monospace;
+    font-size: 40px;
+}
+
+h5{
+    font-size: 25px;
+    color: white;
+    font-family: 'Fira Code', monospace;
+    margin-left: 20px;
+    width: 60%;
+    text-decoration: underline;
+    
+}
+h6{
+    font-size: 20px;
+    color: white;
+    font-family: 'Fira Code', monospace;
+    margin-left: 20px;
+    width: 60%;
+}
+
 h1 {
     text-align: center;
     font-size: 60px;
