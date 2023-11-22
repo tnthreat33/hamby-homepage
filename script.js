@@ -3,11 +3,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const bioSection = document.getElementById("Bio");
 
     toggleBio.addEventListener("click", function () {
-        bioSection.classList.toggle("expanded");
+        bioSection.classList.toggle("hidden");
         
         const bioParagraphs = bioSection.querySelectorAll("p");
         bioParagraphs.forEach(function (paragraph) {
-            paragraph.classList.toggle("hidden");
+            paragraph.classList.toggle("expanded");
         });
     });
 
