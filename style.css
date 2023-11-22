@@ -6,7 +6,9 @@ body {
     cursor: pointer;
     transition: transform 0.3s;
   }
-  
+  .expanded .arrow {
+    transform: rotate(180deg);
+}
   
   .hidden {
     display: none;
