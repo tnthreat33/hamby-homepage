@@ -1,4 +1,4 @@
-# Personal Website
+# Rachel Hamby Personal Website
 
 Welcome to the repository for my personal website! This website is built using HTML, CSS, and JavaScript to showcase my bio, projects, and provide links to connect with me on various platforms.
 
