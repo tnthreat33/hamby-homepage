@@ -2,15 +2,12 @@ body {
     background: #1f3440;
     margin: 0;
 }
-.arrow {
+.arrow-container {
     cursor: pointer;
-    transition: transform 0.3s;
-  }
-  .expanded .arrow {
-    transform: rotate(180deg);
+    display: inline-block;
 }
-  
-  .hidden {
+
+.hidden {
     display: none;
 }
 

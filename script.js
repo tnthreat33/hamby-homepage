@@ -3,12 +3,15 @@ document.addEventListener("DOMContentLoaded", function () {
     const bioSection = document.getElementById("Bio");
 
     toggleBio.addEventListener("click", function () {
-        bioSection.classList.toggle("hidden");
-        
+        bioSection.classList.toggle("expanded");
+
         const bioParagraphs = bioSection.querySelectorAll("p");
         bioParagraphs.forEach(function (paragraph) {
-            paragraph.classList.toggle("expanded");
+            paragraph.classList.toggle("hidden");
         });
+
+        // Toggle arrow rotation
+        toggleArrow(toggleBio);
     });
 
     const toggleProjects = document.getElementById("toggle-projects");
@@ -21,7 +24,14 @@ document.addEventListener("DOMContentLoaded", function () {
         projectHeadings.forEach(function (element) {
             element.classList.toggle("hidden");
         });
-    });
-});
 
-  
+        // Toggle arrow rotation
+        toggleArrow(toggleProjects);
+    });
+
+    function toggleArrow(toggleElement) {
+        const arrow = toggleElement.querySelector(".arrow");
+        
+        arrow.textContent = arrow.textContent === "▼" ? "▶" : "▼";
+    }
+});
